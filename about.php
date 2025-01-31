@@ -12,30 +12,59 @@
 
     <section class="max-w-7xl mx-auto flex justify-center ">
         <div class=" flex justify-around gap-2">
-            <div id="main-content" class="bg-green-200 w-2/3">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, nostrum hic totam enim earum quam
-                molestiae dicta amet voluptate aliquid laudantium voluptatibus dolorem obcaecati corrupti voluptatem,
-                dolores accusantium necessitatibus fugiat eligendi! Labore quas asperiores aut soluta a recusandae, in
-                ab libero, earum possimus aliquam dolorum autem sed dolor placeat quibusdam ut? Nostrum laudantium, ad
-                et repellat exercitationem error. Incidunt, non harum alias vitae nobis laboriosam dicta nostrum
-                praesentium aliquam perspiciatis, amet iste autem accusamus fuga consequuntur? Magni corrupti
-                accusantium ut explicabo dolorem mollitia tempora repellendus soluta aut, nisi in numquam minima amet
-                optio. Laboriosam illum quo blanditiis eos non nisi quas eius dolores facere, velit adipisci libero
-                voluptate laudantium, tempora tempore qui! Laborum nisi neque libero vero. Debitis minus blanditiis
-                eveniet velit magni aliquam, qui atque, consectetur dolor cumque commodi earum, in sunt sit dolores
-                adipisci deleniti! Nobis magnam deleniti, facere dicta soluta, ratione laborum aut unde natus quos
-                sapiente non voluptas illo quas? Exercitationem veniam, earum doloribus odio reprehenderit laudantium
-                tempora soluta praesentium, dolor, reiciendis aspernatur quod ipsam vitae deserunt suscipit? Libero
-                perspiciatis corrupti labore nesciunt iusto cumque maiores ratione, quidem molestias doloremque enim
-                earum illo aliquid dolorem magnam saepe quis, dolores eligendi magni aspernatur sit dignissimos id
-                corporis aperiam? Deserunt alias velit magni reprehenderit non minima vel, ipsam est similique minus a
-                impedit distinctio, totam dolores molestiae eos voluptatem optio quis dolorem perferendis blanditiis
-                officiis. Id voluptatum similique distinctio iste porro aliquam sapiente dolor, quo eveniet eius. Eum
-                cupiditate modi asperiores et sequi dolores error quidem vel culpa amet nobis dolorum soluta
-                consequuntur odio accusamus tempore laboriosam obcaecati necessitatibus voluptate eaque, exercitationem
-                sint voluptatibus ratione minus! Delectus molestiae quas sed reiciendis eaque officiis repellat
-                provident repellendus ratione quasi tempore cumque atque quo doloremque fugiat asperiores, dignissimos
-                quis! Fuga id dignissimos repellendus illum inventore illo quaerat, expedita error. Alias!
+            <div id="main-content" class=" w-2/3">
+            <div class="hs-accordion-group">
+  <div class="hs-accordion active" id="hs-basic-with-arrow-heading-one">
+    <button class="hs-accordion-toggle hs-accordion-active:text-blue-600 py-3 inline-flex items-center gap-x-3 w-full font-semibold text-start text-gray-800 hover:text-gray-500 focus:outline-none focus:text-gray-500 rounded-lg disabled:opacity-50 disabled:pointer-events-none" aria-expanded="true" aria-controls="hs-basic-with-arrow-collapse-one">
+      <svg class="hs-accordion-active:hidden block size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="m6 9 6 6 6-6"></path>
+      </svg>
+      <svg class="hs-accordion-active:block hidden size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="m18 15-6-6-6 6"></path>
+      </svg>
+      Accordion #1
+    </button>
+    <div id="hs-basic-with-arrow-collapse-one" class="hs-accordion-content w-full overflow-hidden transition-[height] duration-300" role="region" aria-labelledby="hs-basic-with-arrow-heading-one">
+      <p class="text-gray-800">
+        <em>This is the third item's accordion body.</em> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions.
+      </p>
+    </div>
+  </div>
+
+  <div class="hs-accordion" id="hs-basic-with-arrow-heading-two">
+    <button class="hs-accordion-toggle hs-accordion-active:text-blue-600 py-3 inline-flex items-center gap-x-3 w-full font-semibold text-start text-gray-800 hover:text-gray-500 focus:outline-none focus:text-gray-500 rounded-lg disabled:opacity-50 disabled:pointer-events-none" aria-expanded="false" aria-controls="hs-basic-with-arrow-collapse-two">
+      <svg class="hs-accordion-active:hidden block size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="m6 9 6 6 6-6"></path>
+      </svg>
+      <svg class="hs-accordion-active:block hidden size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="m18 15-6-6-6 6"></path>
+      </svg>
+      Accordion #2
+    </button>
+    <div id="hs-basic-with-arrow-collapse-two" class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300" role="region" aria-labelledby="hs-basic-with-arrow-heading-two">
+      <p class="text-gray-800">
+        <em>This is the third item's accordion body.</em> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions.
+      </p>
+    </div>
+  </div>
+
+  <div class="hs-accordion" id="hs-basic-with-arrow-heading-three">
+    <button class="hs-accordion-toggle hs-accordion-active:text-blue-600 py-3 inline-flex items-center gap-x-3 w-full font-semibold text-start text-gray-800 hover:text-gray-500 focus:outline-none focus:text-gray-500 rounded-lg disabled:opacity-50 disabled:pointer-events-none" aria-expanded="false" aria-controls="hs-basic-with-arrow-collapse-three">
+      <svg class="hs-accordion-active:hidden block size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="m6 9 6 6 6-6"></path>
+      </svg>
+      <svg class="hs-accordion-active:block hidden size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="m18 15-6-6-6 6"></path>
+      </svg>
+      Accordion #3
+    </button>
+    <div id="hs-basic-with-arrow-collapse-three" class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300" role="region" aria-labelledby="hs-basic-with-arrow-heading-three">
+      <p class="text-gray-800">
+        <em>This is the third item's accordion body.</em> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions.
+      </p>
+    </div>
+  </div>
+</div>
             </div>
             <div id="navigators" class="">
                 <section class="pb-2">
