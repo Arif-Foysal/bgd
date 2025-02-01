@@ -18,13 +18,13 @@ $topicsWithDetails = $policy->getTopicsWithDetails($categoryId);
     <!-- <script src="https://cdn.tailwindcss.com"></script> -->
      <link rel="stylesheet" href="src/output.css">
 <!-- Bootstrap cdn -->
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
 </head>
 
 <body>
 
-    <section class="max-w-7xl mx-auto flex justify-center ">
-        <div class=" flex justify-around gap-2">
+    <section class="max-w-6xl mx-auto flex justify-center ">
+        <div class=" flex justify-around gap-2 w-full">
             <div id="main-content" class="w-2/3">
             <div class="hs-accordion-group ">
             <?php foreach ($topicsWithDetails as $topicDetails): ?>
@@ -48,6 +48,9 @@ $topicsWithDetails = $policy->getTopicsWithDetails($categoryId);
 <?php endforeach; ?>
 
 </div>
+
+
+
             </div>
             <div id="navigators" class="">
                 <section class="pb-2">
@@ -56,19 +59,20 @@ $topicsWithDetails = $policy->getTopicsWithDetails($categoryId);
                 </section>
                 <section class="flex flex-col gap-2">
                 <?php foreach ($categories as $category): ?>
-                    <button
+                    <a href="about.php?category_id=<?= $category['id']; ?>"
                         class=" rounded-md border border-2 border-slate-700 py-2 px-4 text-justify text-sm font-medium transition-all shadow-sm hover:shadow-lg text-black hover:text-white hover:bg-green-800 hover:border-green-800 focus:text-white focus:bg-green-800 focus:border-green-800 active:border-green-800 active:text-white active:bg-green-800 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
                         type="button"
                         data-id="<?= $category['id']; ?>" 
             onclick="loadTopics(<?= $category['id']; ?>)">
                         <?= htmlspecialchars($category['name']); ?>
-                    </button>
+                </a>
         <?php endforeach; ?>
                 </section>
             </div>
         </div>
     </section>
     <script src="./node_modules/preline/dist/preline.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> -->
 </body>
 
 </html>
