@@ -14,6 +14,13 @@ class Policy {
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
 
+    public function getCategoryDetails($categoryId) {
+        $stmt = $this->conn->prepare("SELECT description, description_bangla FROM policy_categories WHERE id = ?");
+        $stmt->execute([$categoryId]);
+        return $stmt->fetch(PDO::FETCH_ASSOC);
+    }
+    
+
     // Fetch topics under a category
     public function getTopics($category_id) {
         $stmt = $this->conn->prepare("SELECT * FROM policy_topics WHERE category_id = ?");
@@ -31,16 +38,7 @@ class Policy {
     // Fetch topics and their corresponding policy details for a given category
     public function getTopicsWithDetails($category_id) {
         $stmt = $this->conn->prepare("
-            SELECT 
-                pt.id AS topic_id, 
-                pt.name AS topic_name, 
-                pt.description AS topic_description, 
-                pt.description_bangla AS topic_description_bangla,
-                pd.content AS policy_content, 
-                pd.content_bangla AS policy_content_bangla
-            FROM policy_topics pt
-            LEFT JOIN policy_details pd ON pt.id = pd.topic_id
-            WHERE pt.category_id = ?
+            SELECT * FROM policy_view WHERE category_id = ?;
         ");
         $stmt->execute([$category_id]);
         return $stmt->fetchAll(PDO::FETCH_ASSOC);

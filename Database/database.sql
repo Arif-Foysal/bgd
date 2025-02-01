@@ -5,7 +5,7 @@ USE politics;
 -- Table to store main policy categories (e.g., Governance, Economy, Law, etc.)
 CREATE TABLE IF NOT EXISTS policy_categories (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(255) UNIQUE NOT NULL,
+    -- name VARCHAR(255) UNIQUE NOT NULL,
     description TEXT,
     description_bangla TEXT
 );
@@ -14,7 +14,7 @@ CREATE TABLE IF NOT EXISTS policy_categories (
 CREATE TABLE IF NOT EXISTS policy_topics (
     id INT AUTO_INCREMENT PRIMARY KEY,
     category_id INT NOT NULL,
-    name VARCHAR(255) NOT NULL,
+    -- name VARCHAR(255) NOT NULL,
     description TEXT,
     description_bangla TEXT,
     FOREIGN KEY (category_id) REFERENCES policy_categories(id) ON DELETE CASCADE
