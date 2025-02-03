@@ -19,7 +19,7 @@
         <hr>
         <br>
         
-        <form class="space-y-6">
+        <form action="process_join.php" method="post" class="space-y-6">
             <!-- Full Name -->
             <div>
                 <label for="fullName" class="block text-sm font-medium text-gray-700">পূর্ণ নাম*</label>

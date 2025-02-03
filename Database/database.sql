@@ -50,3 +50,23 @@ CREATE TABLE IF NOT EXISTS campaigns (
     location VARCHAR(255)
 );
 
+CREATE TABLE IF NOT EXISTS join_requests (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    full_name VARCHAR(255) NOT NULL,
+    gender ENUM('male', 'female', 'other') NOT NULL,
+    dob DATE NOT NULL,
+    mobile VARCHAR(15) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    division VARCHAR(100) NOT NULL,
+    district VARCHAR(100) NOT NULL,
+    preference ENUM('email', 'phone', 'both') NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+
+CREATE TABLE IF NOT EXISTS admin (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(50) NOT NULL UNIQUE,
+    hashed_password VARCHAR(255) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
