@@ -1,10 +1,14 @@
 <?php
 class Database {
     private static $host = "localhost";
-    private static $dbname = "politics";
-    private static $username = "root";
-    private static $password = "asdf1234";
+    private static $dbname = "amarfuel_BGD";
+    private static $username = "amarfuel_SHAH";
+    private static $password = "QR+O?B?QOU-.F^^B!S";
     private static $conn = null;
+    
+    
+ 
+    
 
     public static function connect() {
         if (self::$conn === null) {

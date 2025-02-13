@@ -1009,3 +1009,35 @@ The country's economy will improve, and numerous employment opportunities will b
 ;
 
 -- INSERT INTO policy_details (topic_id, content, content_bangla) VALUES
+
+
+INSERT INTO news (news_title, news_title_bangla, contents, contents_bangla) VALUES
+('New Political Party Emerges', 
+ 'নতুন রাজনৈতিক দল আত্মপ্রকাশ', 
+ 'Bangladesh Ganatantrik Dol has officially launched, aiming to bring progressive changes in the country.', 
+ 'বাংলাদেশ গণতান্ত্রিক দল আনুষ্ঠানিকভাবে যাত্রা শুরু করেছে, যা দেশে প্রগতিশীল পরিবর্তন আনতে চায়।'),
+
+('Economic Reform Plan Announced', 
+ 'অর্থনৈতিক সংস্কার পরিকল্পনা ঘোষণা', 
+ 'The party has introduced a new economic policy focused on reducing income inequality and fostering local industries.', 
+ 'দলটি আয় বৈষম্য কমানো এবং স্থানীয় শিল্পকে উৎসাহিত করার জন্য একটি নতুন অর্থনৈতিক নীতি চালু করেছে।'),
+
+('Youth Engagement in Politics', 
+ 'রাজনীতিতে যুব অংশগ্রহণ', 
+ 'Bangladesh Ganatantrik Dol encourages youth participation in politics to create a more inclusive democracy.', 
+ 'বাংলাদেশ গণতান্ত্রিক দল একটি আরো অন্তর্ভুক্তিমূলক গণতন্ত্র গড়তে যুবকদের রাজনীতিতে সম্পৃক্ত হতে উৎসাহিত করছে।'),
+
+('Education Reform Proposal', 
+ 'শিক্ষা সংস্কার প্রস্তাব', 
+ 'The party has proposed a new education policy to ensure equal access to quality education for all.', 
+ 'দলটি সবার জন্য মানসম্মত শিক্ষার সমান সুযোগ নিশ্চিত করতে একটি নতুন শিক্ষা নীতি প্রস্তাব করেছে।'),
+
+('Healthcare for All Initiative', 
+ 'সবার জন্য স্বাস্থ্যসেবা উদ্যোগ', 
+ 'A nationwide healthcare reform initiative has been announced to provide affordable healthcare for every citizen.', 
+ 'প্রত্যেক নাগরিকের জন্য সাশ্রয়ী মূল্যে স্বাস্থ্যসেবা নিশ্চিত করতে একটি জাতীয় স্বাস্থ্যসেবা সংস্কার উদ্যোগ ঘোষণা করা হয়েছে।'),
+
+('Digital Bangladesh Expansion', 
+ 'ডিজিটাল বাংলাদেশ সম্প্রসারণ', 
+ 'The party has pledged to accelerate the expansion of digital infrastructure to boost economic growth and innovation.', 
+ 'দলটি অর্থনৈতিক প্রবৃদ্ধি ও উদ্ভাবন ত্বরান্বিত করতে ডিজিটাল অবকাঠামো সম্প্রসারণের প্রতিশ্রুতি দিয়েছে।');

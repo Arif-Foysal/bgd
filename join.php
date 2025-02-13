@@ -6,13 +6,16 @@
     <title>Join Us</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-50 min-h-screen py-12 px-4">
+<body >
+    <section class="bg-gray-50 min-h-screen px-4">
+
+   
     <?php
-        // include_once("nav.php");
+        include_once("nav.php");
     
     ?>
 
-
+<br>
     <div class="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow">
         <h1 class="text-2xl font-semibold text-red-600 mb-2">যোগ দাও</h1>
         <p>গণতন্ত্র রক্ষায় এগিয়ে আসুন, মানবাধিকারের জন্য আওয়াজ তুলুন।</p>
@@ -125,5 +128,6 @@
             </div>
         </form>
     </div>
+    </section>
 </body>
 </html>

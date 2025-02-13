@@ -30,7 +30,7 @@ SessionManager::startSession();
 <body>
     <?php
      // require_once  'partials/language_nav.php';
-        include_once 'language_nav.php';
+        include_once 'nav.php';
     ?>
     <section class="max-w-6xl mx-auto flex justify-center ">
         <div class=" flex justify-around gap-2 w-full">

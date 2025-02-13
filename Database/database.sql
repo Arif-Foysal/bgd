@@ -70,3 +70,18 @@ CREATE TABLE IF NOT EXISTS admin (
     hashed_password VARCHAR(255) NOT NULL,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
+
+DROP TABLE IF EXISTS news;
+
+CREATE TABLE news (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    news_title TEXT NOT NULL,
+    news_title_bangla
+ TEXT NOT NULL,
+    contents TEXT NOT NULL,
+    contents_bangla TEXT NOT NULL,
+    image_id INT DEFAULT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (image_id) REFERENCES images(id) ON DELETE SET NULL
+);

@@ -1,0 +1,16 @@
+ [09-Feb-2025 19:09:27 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /home/amarfuel/ganatantrik.amarfuel.com/bgd/about.php on line 43
+[09-Feb-2025 19:14:26 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/amarfuel/ganatantrik.amarfuel.com/bgd/classes/SessionManager.php on line 7
+[09-Feb-2025 19:14:26 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/amarfuel/ganatantrik.amarfuel.com/bgd/classes/SessionManager.php on line 7
+[09-Feb-2025 19:14:26 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/amarfuel/ganatantrik.amarfuel.com/bgd/classes/SessionManager.php on line 7
+[09-Feb-2025 19:14:26 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/amarfuel/ganatantrik.amarfuel.com/bgd/classes/SessionManager.php on line 7
+[09-Feb-2025 19:14:26 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/amarfuel/ganatantrik.amarfuel.com/bgd/classes/SessionManager.php on line 7
+[09-Feb-2025 19:14:26 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/amarfuel/ganatantrik.amarfuel.com/bgd/classes/SessionManager.php on line 7
+[09-Feb-2025 19:14:26 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/amarfuel/ganatantrik.amarfuel.com/bgd/classes/SessionManager.php on line 7
+[09-Feb-2025 19:14:26 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/amarfuel/ganatantrik.amarfuel.com/bgd/classes/SessionManager.php on line 7
+[09-Feb-2025 19:14:26 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/amarfuel/ganatantrik.amarfuel.com/bgd/classes/SessionManager.php on line 7
+[09-Feb-2025 19:14:26 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/amarfuel/ganatantrik.amarfuel.com/bgd/classes/SessionManager.php on line 7
+[09-Feb-2025 19:14:26 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/amarfuel/ganatantrik.amarfuel.com/bgd/classes/SessionManager.php on line 7
+[09-Feb-2025 19:14:26 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/amarfuel/ganatantrik.amarfuel.com/bgd/classes/SessionManager.php on line 7
+[09-Feb-2025 19:14:26 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/amarfuel/ganatantrik.amarfuel.com/bgd/classes/SessionManager.php on line 7
+[09-Feb-2025 19:14:26 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/amarfuel/ganatantrik.amarfuel.com/bgd/classes/SessionManager.php on line 7
+[09-Feb-2025 19:14:26 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/amarfuel/ganatantrik.amarfuel.com/bgd/classes/SessionManager.php on line 7

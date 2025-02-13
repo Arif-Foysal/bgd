@@ -24,11 +24,14 @@ $banglaBg = !SessionManager::has('en') ? 'bg-green-800 text-white' : 'bg-gray-20
     <nav class="px-4 py-2 bg-gray-200">
         <section class="flex justify-start">
             <div class="<?php echo $englishBg; ?> px-2 py-1">
-                <a href="about.php?<?php echo http_build_query(array_merge($_GET, ['lang' => 'en'])); ?>">English</a>
+                <a href="<?php echo basename($_SERVER['PHP_SELF']) . '?' . http_build_query(array_merge($_GET, ['lang' => 'en'])); ?>">English</a>
             </div>
             <div class="<?php echo $banglaBg; ?> px-2 py-1">
-                <a href="about.php?<?php echo http_build_query(array_merge($_GET, ['lang' => 'bn'])); ?>">বাংলা</a>
+                <a href="<?php echo basename($_SERVER['PHP_SELF']) . '?' . http_build_query(array_merge($_GET, ['lang' => 'bn'])); ?>">বাংলা</a>
             </div>
         </section>
     </nav>
+    <?php
+    var_dump($_SESSION);
+    ?>
 </html>
